@@ -1,0 +1,20 @@
+locale: 
+title: "Mi sitio musical "
+description: "Musica"
+baseurl: '/musica'
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: # path of site logo, e.g. "/images/logo.png"
+date_format: "%B %-d, %Y"
+read_time: # reading time estimates, e.g. true
+words_per_minute: # 200 
+
+# Nombre del sitio web musical######
+title: MonMusic
+Description:
+logo: assets/img/basic/logo2.png
+##### site music controls settings ######
+number: '#'
+track_name: titulo Musica
+gender: Genero
+composer: Compositor
+length: duracion

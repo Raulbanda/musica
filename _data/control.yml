@@ -1,0 +1,51 @@
+  songs:
+  - image: "assets/img/media/media_01.jpg"
+    data_title: Blitzkrieg Bop - Ramones
+    data_genre: Heavy
+    data_artist: 'Poision Studios'
+    data-length: '4:13'
+    data-itunes: 'http://xvelopers.com'
+    data-video: ' http://xvelopers.com '
+    data-mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"  
+    body: Esta cancion me la hice fumando 
+    
+  - image: "assets/img/media/media_02.jpg"
+    data_title: Oxilife Jingle
+    data_genre: Punk
+    data_artist: 'Oxilife'
+    data-length: '1:24'
+    data-itunes: 'http://xvelopers.com'
+    data-video: ' http://xvelopers.com '
+    data-mp3: "http://www.oxilife.org/audio/espa%C3%B1ol.mp3"  
+    body: Esta cancion me la hice fumando
+
+  - image: "assets/img/media/media_03.jpg"
+    data_title: Complete Control - The Clash
+    data_genre: Heavy
+    data_artist: 'Poision Studios'
+    data-length: '4:17'
+    data-itunes: 'http://xvelopers.com'
+    data-video: ' http://xvelopers.com '
+    data-mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"  
+    body: Esta cancion me la hice fumando
+
+  - image: "assets/img/media/media_04.jpg"
+    data_title: BKick Out the Jams - MC5
+    data_genre: Heavy 
+    data_artist: 'Poision Studios'
+    data-length: '4:18'
+    data-itunes: 'http://xvelopers.com'
+    data-video: ' http://xvelopers.com '
+    data-mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"  
+    body: Esta cancion me la hice fumando
+
+  - image: "assets/img/media/media_05.jpg"
+    data_title: Holiday in Cambodia - Dead Kennedys
+    data_genre: Heavy 
+    data_artist: 'Poision Studios'
+    data-length: '4:19'
+    data-itunes: 'http://xvelopers.com'
+    data-video: ' http://xvelopers.com '
+    data-mp3: "http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3"  
+    body: Esta cancion me la hice fumando
+  

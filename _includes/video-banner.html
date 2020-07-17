@@ -4,8 +4,8 @@
       <div class="fa fa-play video-play play-pause"></div>
       <div class="fa fa-pause video-pause play-pause"></div>
       <div class="video_caption">
-        <h5>Andres Monduela</h5>
-        <a href="#"><img src="assets/img/basic/logo2.png" alt="" /></a>
+        <h5>{{ site.title }}</h5>
+        <a href="#"><img src="{{ site.logo }}" alt="{{ site.description }}" /></a>
       </div>
     </div>
     <!--controls-->
@@ -21,14 +21,14 @@
             <div class="container ">
               <ul class="music_widget player_data">
                 <li class="music_row_header">
-                  <div class="column_one"> # </div>
+                  <div class="column_one">{{ site.number }}</div>
                   <div class="column_two"> &nbsp;
                     <!--no header for picture column-->
                   </div>
-                  <div class="column_three"> track name </div>
-                  <div class="column_four"> genre </div>
-                  <div class="column_five"> composer </div>
-                  <div class="column_six"> length </div>
+                  <div class="column_three"> {{ site.track_name }} </div>
+                  <div class="column_four"> {{ site.gender }} </div>
+                  <div class="column_five"> {{ site.composer }} </div>
+                  <div class="column_six"> {{ site.length }}</div>
                   <div class="column_seven"> &nbsp;
                     <!--no header for play column-->
                   </div>
@@ -36,105 +36,46 @@
                     <!--no header for btn column-->
                   </div>
                 </li>
-                <li class="music_row">
+              {% for subsection in site.data.control.songs%}
+                <li class="music_row ">
                   <div class="column_one track_index"></div>
                   <div class="column_two track_thumb"></div>
                   <div class="column_three track_title"></div>
                   <div class="column_four track_genre"></div>
                   <div class="column_five track_composer"></div>
                   <div class="column_six track_length"></div>
-                  <div class="column_seven"> <a class="play_it" href="#"><span class="fa fa-play"></span></a> <a
-                      href="#"><span class="fa fa-plus"></span></a> <a class="itunesLink" href="#"><span
-                        class="fa fa-download"></span></a> </div>
-                  <div class="column_eight"> <a class="btn btn_watch_video" href="#">watch video</a> </div>
+                  <div class="column_seven"> 
+                    <a class="play_it" href="#">
+                      <span class="fa fa-play"></span>
+                    </a> 
+                    <a href="#"><span class="fa fa-plus"></span></a> 
+                    <a class="itunesLink" href="#">
+                      <span class="fa fa-download"></span></a> 
+                  </div>
+                  <div class="column_eight"> 
+                    <a class="btn btn_watch_video" href="#">Ver video</a> 
+                  </div>
                 </li>
                 <!--music row-->
-  
-                <li class="music_row">
-                  <div class="column_one track_index"></div>
-                  <div class="column_two track_thumb"></div>
-                  <div class="column_three track_title"></div>
-                  <div class="column_four track_genre"></div>
-                  <div class="column_five track_composer"></div>
-                  <div class="column_six track_length"></div>
-                  <div class="column_seven"> <a class="play_it" href="#"><span class="fa fa-play"></span></a> <a
-                      href="#"><span class="fa fa-plus"></span></a> <a class="itunesLink" href="#"><span
-                        class="fa fa-download"></span></a> </div>
-                  <div class="column_eight"> <a class="btn btn_watch_video" href="#">watch video</a> </div>
-                </li>
-                <!--music row-->
-                <li class="music_row">
-                  <div class="column_one track_index"></div>
-                  <div class="column_two track_thumb"></div>
-                  <div class="column_three track_title"></div>
-                  <div class="column_four track_genre"></div>
-                  <div class="column_five track_composer"></div>
-                  <div class="column_six track_length"></div>
-                  <div class="column_seven"> <a class="play_it" href="#"><span class="fa fa-play"></span></a> <a
-                      href="#"><span class="fa fa-plus"></span></a> <a class="itunesLink" href="#"><span
-                        class="fa fa-download"></span></a> </div>
-                  <div class="column_eight"> <a class="btn btn_watch_video" href="#">watch video</a> </div>
-                </li>
-                <!--music row-->
-                <li class="music_row">
-                  <div class="column_one track_index"></div>
-                  <div class="column_two track_thumb"></div>
-                  <div class="column_three track_title"></div>
-                  <div class="column_four track_genre"></div>
-                  <div class="column_five track_composer"></div>
-                  <div class="column_six track_length"></div>
-                  <div class="column_seven"> <a class="play_it" href="#"><span class="fa fa-play"></span></a> <a
-                      href="#"><span class="fa fa-plus"></span></a> <a class="itunesLink" href="#"><span
-                        class="fa fa-download"></span></a> </div>
-                  <div class="column_eight"> <a class="btn btn_watch_video" href="#">watch video</a> </div>
-                </li>
-                <!--music row-->
-                <li class="music_row">
-                  <div class="column_one track_index"></div>
-                  <div class="column_two track_thumb"></div>
-                  <div class="column_three track_title"></div>
-                  <div class="column_four track_genre"></div>
-                  <div class="column_five track_composer"></div>
-                  <div class="column_six track_length"></div>
-                  <div class="column_seven"> <a class="play_it" href="#"><span class="fa fa-play"></span></a> <a
-                      href="#"><span class="fa fa-plus"></span></a> <a class="itunesLink" href="#"><span
-                        class="fa fa-download"></span></a> </div>
-                  <div class="column_eight"> <a class="btn btn_watch_video" href="#">watch video</a> </div>
-                </li>
-                <!--music row-->
+             {% endfor %}
               </ul>
               <!--music_widget-->
             </div>
             <!--container-->
           </div>
         </div>
-  
-        <!--//=============================================================
+         <!--//=============================================================
           Edit or Modify Playist content in the following Hypertext
           ==============================================================-->
         <div class="jp-playlist hidden">
           <!--Add Songs In mp3 formate here-->
           <ul class=" playlist-files">
-            <li data-thumb="assets/img/media/media_01.jpg" data-title="Blitzkrieg Bop - Ramones" data-genre="punk"
-              data-artist="Poision Studios" data-length="4:13" data-itunes="http://xvelopers.com"
-              data-video="http://xvelopers.com" data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3">
+            {% for subsection in site.data.control.songs%}  
+            <li data-thumb="{{ subsection.image }}" data-title="{{ subsection.data_title }}" data-genre="{{ subsection.data_genre }}"
+              data-artist="{{ subsection.data_artist }}" data-length="{{ subsection.data-length }}" data-itunes="{{ subsection.data-itunes }}"
+              data-video="{{ subsection.data-video }}" data-mp3="{{ subsection.data-mp3 }}">
             </li>
-            <li data-thumb="assets/img/media/media_02.jpg" data-title="Anarchy in the UK - Sex Pistols" data-genre="punk"
-              data-artist="Poision Studios" data-length="4:50" data-itunes="http://xvelopers.com"
-              data-video="http://xvelopers.com" data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3">
-            </li>
-            <li data-thumb="assets/img/media/media_03.jpg" data-title="Complete Control - The Clash" data-genre="punk"
-              data-artist="Poision Studios" data-length="4:00" data-itunes="http://xvelopers.com"
-              data-video="http://xvelopers.com" data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3">
-            </li>
-            <li data-thumb="assets/img/media/media_04.jpg" data-title="Kick Out the Jams - MC5" data-genre="punk"
-              data-artist="Poision Studios" data-length="4:05" data-itunes="http://xvelopers.com"
-              data-video="http://xvelopers.com" data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3">
-            </li>
-            <li data-thumb="assets/img/media/media_05.jpg" data-title="Holiday in Cambodia - Dead Kennedys"
-              data-genre="punk" data-artist="Poision Studios" data-length="3:30" data-itunes="http://xvelopers.com"
-              data-video="http://xvelopers.com" data-mp3="http://www.jplayer.org/audio/mp3/TSP-01-Cro_magnon_man.mp3">
-            </li>
+            {% endfor %}
           </ul>
           <!--Playlist ends-->
         </div>
@@ -169,4 +110,4 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
