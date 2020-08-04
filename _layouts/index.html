@@ -1,9 +1,12 @@
 ---
 layout: default
----
+--- 
 {% include video-banner.html %}
 {% include header.html %}
+{% for feature in page.features %}
 <div class="sections_wrapper">
+    {% case feature.handle %}
+        {% when 'news' %}
     <section id="section_2" class="news_section section_first">
         <div class="container animatedParent ">
             <div class="row">
@@ -186,6 +189,7 @@ layout: default
     <!--================
    Newsletter
   ====================-->
+    {% when 'news-letter' %}
     <section id="section_3" class="newsletter_section">
         <div class="container">
             <div class="row">
@@ -217,6 +221,7 @@ layout: default
     <!--======================================
   Parallax/facebook page promotion Section
   ==========================================-->
+  {% when 'facebook' %}
     <section id="section_4" class="parallax parallax_one facebook_promo animatedParent "
         data-stellar-background-ratio="0.5">
         <div class="parallax_inner ">
@@ -239,6 +244,7 @@ layout: default
     <!--=============
   Music Tracks
   ===============-->
+  {% when 'track-section' %}
     <section id="section_5" class="track_section">
         <div class="container">
             <div class="row">
@@ -414,6 +420,7 @@ layout: default
     <!--======================================
   Parallax/Testimonial Section
   ==========================================-->
+  {% when 'testimonial' %}
     <div id="section_6" class="parallax parallax_two testimonial" data-stellar-background-ratio="0.5">
         <div class="parallax_inner">
             <div class="container">
@@ -452,6 +459,7 @@ layout: default
     <!--======================================
   Media Section
   ==========================================-->
+  {% when 'media-section' %}
     <section id="section_7" class="media_section">
         <div class="container">
             <div class="row">
@@ -666,6 +674,7 @@ layout: default
     <!--======================================
   Parallax/event_promo Section
   ==========================================-->
+  {% when 'promo' %}
     <section id="section_8" class="parallax parallax_three event_promo" data-stellar-background-ratio="0.5">
         <div class="parallax_inner">
             <div class="container">
@@ -688,6 +697,7 @@ layout: default
     <!--======================================
   Tours Section
   ==========================================-->
+  {% when 'tours' %}
     <section id="section_9" class="tours_section">
         <div class="container">
             <div class="row">
@@ -892,6 +902,7 @@ layout: default
     <!--======================================
   Team/Band Members
   ==========================================-->
+  {% when 'team-section' %}
     <section id="section_11" class="team_section">
         <div class="container overlayNews">
             <div class="row">
@@ -938,6 +949,7 @@ layout: default
     <!--======================================
   About
   ==========================================-->
+  {% when 'about-section' %}
     <section id="section_12" class="about_section">
         <div class="container">
             <div class="row">
@@ -993,6 +1005,9 @@ layout: default
   Gallery Pop Ups : 
   You can create as many modals/poups as needed,
   ==========================================-->
+  
     {% include modal-pop-up.html %}
     {% include footer.html %}
+    {% endcase %}
 </div>
+{% endfor %}
