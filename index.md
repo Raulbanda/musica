@@ -4,8 +4,8 @@ title: MonMusic1
 logo: assets/img/basic/logo2.png
 description: Musica para la vida
 features:
-- title: we have special news &amp; prizes only <br>for our biggest poison fans
-  subtitle:
+- title: Poison news
+  subtitle: latest articles
   handle: news
   subsections:
   - image: "assets/img/news/n1.jpg"
@@ -40,7 +40,7 @@ features:
     coments: 6 comments
     link: news.html
     subsubsections:
-          - author: Subthing 3
+          - author: Subthing 4
             date: Sep 20, 2016
 
   - image: "assets/img/news/n5.jpg"
@@ -49,15 +49,15 @@ features:
     coments: 7 comments
     link: news.html
     subsubsections:
-          - author: Subthing 3
+          - author: Subthing 5
             date: Sep 20, 2017
   - image: "assets/img/news/n6.jpg"
     description: News cochabamba
-    title: poison5 fragnances coming soon
+    title: poison6 fragnances coming soon
     coments: 8 comments
     link: news.html
     subsubsections:
-          - author: Subthing 3
+          - author: Subthing 6
             date: Sep 20, 2018
 
 - title: we have special news &amp; prizes only <br>for our biggest poison fans
@@ -81,10 +81,10 @@ features:
 
 - title: Poison music
   subtitle: Like If you love them!
+  handle: facebook 
   linkname: like us on facebook
   href: 
-  handle: facebook 
-
+  subsections:
 
 - title: poison Music
   subtitle: All Albums
@@ -158,84 +158,915 @@ features:
     image: assets/img/media/media_01.jpg"
     title: Behind the scenes
     subtitle: 25 photos
-    data-target: gal_pop
+    handle: gal_pop
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g11.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
   
   - link: nada2
     description: description1
     image: assets/img/media/media_02.jpg"
     title: poison in news
     subtitle: 35 photos
-    data-target: gal_pop2
+    handle: gal_pop2
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
   
   - link: nada3
     description: description3
-    image: assets/img/media/media_03
+    image: assets/img/media/media_03.jpg
     title: paris live concert
     subtitle: 105 photos
-    data-target: gal_pop3
+    handle: gal_pop3
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada4
     description: description4
-    image: assets/img/media/media_04
+    image: assets/img/media/media_04.jpg
     title: paris live concert
     subtitle: 95 photos
-    data-target: gal_pop4
+    handle: gal_pop4
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada5
     description: description5
-    image: assets/img/media/media_05
+    image: assets/img/media/media_05.jpg
     title: paris live concert
     subtitle: 90 photos
-    data-target: gal_pop5
+    handle: gal_pop5
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada6
     description: description6
-    image: assets/img/media/media_06
+    image: assets/img/media/media_06.jpg
     title: paris live concert
     subtitle: 60 photos
-    data-target: gal_pop6
+    handle: gal_pop6
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
   
   - link: nada7
     description: description7
-    image: assets/img/media/media_07
+    image: assets/img/media/media_07.jpg
     title: paris live concert
     subtitle: 69 photos
-    data-target: gal_pop7
+    handle: gal_pop7
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada8
     description: description
-    image: assets/img/media/media_08
+    image: assets/img/media/media_08.jpg
     title: fashion show in dublin
     subtitle: 78 photos
-    data-target: gal_pop8
+    handle: gal_pop8
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada9
     description: description
-    image: assets/img/media/media_09
+    image: assets/img/media/media_09.jpg
     title: the Lorem
     subtitle: 789 photos
-    data-target: gal_pop9
+    handle: gal_pop9
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada10
     description: description
-    image: assets/img/media/media_10
+    image: assets/img/media/media_10.jpg
     title: paris live concert1
     subtitle: 789 photos
-    data-target: gal_pop10
+    handle: gal_pop10
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada11
     description: description
-    image: assets/img/media/media_11
+    image: assets/img/media/media_11.jpg
     title: party with friends
     subtitle: 7 photos
-    data-target: gal_pop11
+    handle: gal_pop11
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
   - link: nada12
     description: description
-    image: assets/img/media/media_12
+    image: assets/img/media/media_12.jpg
     title: during live concert
     subtitle: 7 photos
-    data-target: gal_pop12
+    handle: gal_pop12
+    subsubsections:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g5.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g6.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g7.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g8.jpg
+      description:
+    - image: assets/img/gallery/g9.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g10.jpg
+      description: 
+      link:
+    - image: assets/img/gallery/g12.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g13.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g14.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g15.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g16.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g17.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g18.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g19.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g20.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g1.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g2.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g3.jpg
+      description:
+      link:
+    - image: assets/img/gallery/g4.jpg
+      description:
+      link:
 
 - title: performing live!
   subtitle: stars tour de paris
@@ -248,7 +1079,7 @@ features:
   subtitle: all tours this year
   date: november 5th 2013
   handle: tours
-  date: Date 
+  date: fecha 
   location: Location
   venue:  Venue
   notes: Notes
@@ -264,21 +1095,21 @@ features:
   - date: 10/11/14
     image: assets/img/media/media_01.jpg
     description: 
-    direction: Lorem Events Center
+    direction: Lorem Events Center1
     subdirection: Pittsburgh, PA US 
     vip: with Emblem3 t
 
   - date: 15/11/14
     image: assets/img/media/media_05.jpg
     description: 
-    direction: TD Lorem 
+    direction: TD Lorem2 
     subdirection: Boston, MA US
     vip:  with Emblem3 
 
   - date: 25/11/14
     image: assets/img/media/media_08.jpg
     description: 
-    direction: Wells Fargo Center
+    direction: Wells Fargo Center3
     subdirection: Philadelphia, PA US
     vip:  with Emblem3 
 
@@ -286,42 +1117,42 @@ features:
   - date: 30/11/14
     image: assets/img/media/media_08.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center4
     subdirection: Fairfax, VA US
     vip:  with Emblem3 
 
   - date: 31/11/14
     image: assets/img/media/media_07.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center5
     subdirection: Fairfax, VA US
     vip:  with Emblem3
     
   - date: 1/12/14
     image: assets/img/media/media_06.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center6
     subdirection: Fairfax, VA US
     vip:  with Emblem3 
 
   - date: 8/12/20
     image: assets/img/media/media_02.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center7
     subdirection: Fairfax, VA US
     vip:  with Emblem3
 
   - date: 8/12/20
     image: assets/img/media/media_04.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center8
     subdirection: Fairfax, VA US
     vip:  with Emblem3
 
   - date: 8/12/20
     image: assets/img/media/media_05.jpg
     description: 
-    direction: Lorem Center
+    direction: Lorem Center9
     subdirection: Fairfax, VA US
     vip:  with Emblem3
   
@@ -353,7 +1184,7 @@ features:
     name: michael Jonas II
     link: news.html 
   
-  - image: "assets/img/team/member-5jpg"
+  - image: "assets/img/team/member-5.jpg"
     description: News cochabamba
     link: poison1 fragnances coming soon
     name: david Tomlinson
