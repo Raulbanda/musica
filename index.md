@@ -1223,4 +1223,23 @@ features:
                             dignissim. Donec sollicitudin eu tellus in fermentum. Ut eu dui sit amet erat euismod
                             euismod in non
                             turpis. Pellentesque luctus dui massa.</p>
+
+- title: 
+  subtitle: 
+  handle: footer
+  subsections:
+  - title: Get Social
+    handle: tab1
+    subsubsections:
+          - author: Subthing 1
+            date: Sep 20, 2013
+  - title: Message Us
+    handle: tab2
+    title: poison2 fragnances coming soon
+    coments: 4 comments
+    link: news.html
+    subsubsections:
+          - author: Subthing 2
+            date: Sep 20, 2014
+
 ---
