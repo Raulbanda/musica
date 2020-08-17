@@ -392,6 +392,73 @@ layout: default
             </div>
         </div>
          </section>
-        {% include footer.html %}
+         {% when 'footer' %}
+         <footer id="section_13" class="parallax parallax_five footer" data-stellar-background-ratio="0.5">
+             <div class="parallax_inner">
+               <div class="container">
+                 <div class="contact_Us">
+                   <div class="tabs-wrap tabs-wrap-active clearfix">
+                     <ul class="tabs">
+                       {% for subsection in feature.subsections %}
+                       <li class="tab-link {% if forloop.first %}tab-link1 active {%else%} tab-link2 {%endif%}" 
+                           data-tab="{{ subsection.handle }}">
+                         <span>{{ subsection.title }}</span>
+                       </li>
+                       {% endfor %}
+         
+                     </ul>
+                   </div>
+                   <div id="tab1" class="tab-content active">
+                     <ul class="channels_list row animatedParent " data-sequence="400">
+                       <li class="col-xs-12 col-sm-4 animated fadeInLeftShort" data-id="1"> 
+                         <a href="#"><i class="fa fa-circular fa-music"></i>poison itunes</a>
+                       </li>
+                       <li class="col-xs-12 col-sm-4 animated fadeInLeft" data-id="2">
+                         <a href="#"><i class="fa fa-soundcloud"></i>poison soundcloud</a>
+                       </li>
+                       <li class="col-xs-12 col-sm-4  animated fadeInLeft" data-id="3"> 
+                         <a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                       <li class="col-xs-12 col-sm-4 animated fadeInLeft" data-id="4"> 
+                         <a href="#"><i class="fa fa-instagram"></i>poison Instagram</a></li>
+                       <li class="col-xs-12 col-sm-4  animated fadeInLeft" data-id="5"> 
+                         <a href="#"><i class="fa fa-flickr"></i>poison Flicker</a></li>
+                       <li class="col-xs-12 col-sm-4  animated fadeInLeft" data-id="6"> 
+                         <a href="#"><i class="fa fa-pinterest"></i>poison pinterest</a></li>
+                     </ul>
+                   </div>
+                   <div id="tab2" class="tab-content animatedParent">
+                     <div class="contactFormWrapper ">
+                       <form id="contactform" action="https://xvelopers.com/html/poison/assets/php/submit.php" method="post">
+                         <div class="row">
+                           <div class="col-xs-12 col-md-4">
+                             <input type="text" id="name" placeholder="Name" />
+                           </div>
+                           <div class="col-xs-12 col-md-4">
+                             <input type="text" name="email" id="email" placeholder="Email" />
+                           </div>
+                           <div class="col-xs-12 col-md-4">
+                             <input type="text" name="subject" id="subject" placeholder="Subject" />
+                           </div>
+                           <div class="col-xs-12 col-md-8">
+                             <textarea placeholder="Message" name="message" id="message"></textarea>
+                           <div class="col-xs-12 col-md-4">
+                             <button class="btn btn-default" id="submit1" type="submit">
+                               send message
+                             </button>
+                           </div>
+                         </div>
+                       </form>
+                       <div id="valid-issue" style="display:none;"> Please Provide Valid Information</div>
+                     </div>
+                   </div>
+                 </div>
+                  <div class="row">
+                   <div class="col-xs-12">
+                     <div class="copyrights">&copy; {{ site.time | date: '%Y' }} <a href="#">poison music</a>.</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+         </footer>
         {% endcase %} 
 {% endfor %}

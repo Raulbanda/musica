@@ -1231,15 +1231,31 @@ features:
   - title: Get Social
     handle: tab1
     subsubsections:
-          - author: Subthing 1
-            date: Sep 20, 2013
+          - title: poison itunes
+            link: https://monduelamusic.netlify.app/
+            class: fa-music
+
+          - title: poison soundcloud
+            link: https://soundcloud.com/
+            class: fa-soundcloud
+
+          - title: poison youtube
+            link: 
+            class: fa-youtube
+
+          - title: poison Instagram
+            link: https://www.instagram.com/
+            class: fa-instagram
+
+          - title: poison Flicker
+            link: https://monduelamusic.netlify.app/
+            class: fa-flickr
+           
+          - title: poison pinterest
+            link: https://monduelamusic.netlify.app/
+            class: fa-pinterest
+          
   - title: Message Us
     handle: tab2
-    title: poison2 fragnances coming soon
-    coments: 4 comments
-    link: news.html
     subsubsections:
-          - author: Subthing 2
-            date: Sep 20, 2014
-
 ---
