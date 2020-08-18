@@ -4,8 +4,8 @@ title: MonMusic1
 logo: assets/img/basic/logo2.png
 description: Musica para la vida
 features:
-- title: Poison news
-  subtitle: latest articles
+- title: Noticias
+  subtitle: Ultimas
   handle: news
   subsections:
   - image: "assets/img/news/n1.jpg"

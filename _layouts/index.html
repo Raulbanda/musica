@@ -1,7 +1,11 @@
 ---
 layout: default
 --- 
-{% for feature in page.features %}
+<div class="wide_layout box-wide">
+  {% include video-banner.html %}
+  {% include header.html %}
+  <div class="sections_wrapper">
+  {% for feature in page.features %}
       {% case feature.handle %}
         {% when 'news' %}
          <section id="section_2" class="news_section section_first">
@@ -461,4 +465,6 @@ layout: default
              </div>
          </footer>
         {% endcase %} 
-{% endfor %}
+   {% endfor %}
+  </div>
+</div>
