@@ -31,23 +31,23 @@ layout: default
                           </div>
                      </div>
                      <div class="news_carousel animatedParent ">
-                     {% for subsection in feature.subsections limit:6 %}
+                      {% for post in site.posts limit: 6 %}
                         <div class="news_box fadeInUp animated">
-                             <figure><img src="{{ subsection.image }}" alt="{{ subsection.description }}" /></figure>
+                             <figure><img src="{{ post.image }}" alt="{{ post.alt_image }}" /></figure>
                              <div class="news_info_wrapper">
                                   <div class="news_info">
-                                       <h5>{{ subsection.title }}</h5>
-                                          {% for subsubsection in subsection.subsubsections  %}
+                                       <h5>{{ post.title }}</h5>
+                                          {% for subsubsection in post.subsections  %}
                                              <ul class="news_meta">
                                                  <li>{{ subsubsection.author }}</li>
-                                                 <li>{{ subsubsection.date }}</li>
+                                                 <li>{{ subsubsection.date |  date: "%b %-d %Y" }}</li>
                                              </ul>
                                           {% endfor %}  
-                                       <h6>{{ subsection.coments }}</h6>
+                                       <h6>{{ post.coments }}</h6>
                                  </div>
                              </div>
                              <div class="hover">
-                                 <a class="triggerNews" href="news.html" data-number="{{forloop.index}}">
+                                 <a class="triggerNews" href="{{ post.url }}" data-number="{{forloop.index}}">
                                    Leer
                                  </a>
                              </div>

@@ -18,3 +18,21 @@ track_name: titulo Musica
 gender: Genero
 composer: Compositor
 length: duracion
+
+collections:
+  posts:
+    title: Posts
+    output: true
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    image: 
+    description: 
+    button:
+      title: 
+      url: 
