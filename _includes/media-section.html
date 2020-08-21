@@ -1,0 +1,14 @@
+{% for subsection  in site.gallery %}
+ <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
+    <figure class="animated fadeInUp">
+            <a href="#" data-toggle="modal" data-target="#{{ subsection.handle }}">
+                <img src="{{ subsection.image }}" alt="{{ subsection.description }}" />
+            </a>
+            <figcaption>
+                <h6>{{ subsection.title }}</h6>
+                    {{ subsection.subtitle }}
+            </figcaption>
+    </figure>
+</div>
+{% endfor %}
+ 

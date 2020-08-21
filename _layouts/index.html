@@ -213,73 +213,11 @@ layout: default
                             </div>
                        </div>
                        <div class="row media_widget">
-                       {% for subsection in feature.subsections %}
-                        <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
-                             <figure class="animated fadeInUp">
-                                     <a href="#" data-toggle="modal" data-target="#{{ subsection.handle }}">
-                                        <img src="{{ subsection.image }}" alt="{{ subsection.description }}" />
-                                       </a>
-                                     <figcaption>
-                                      <h6>{{ subsection.title }}</h6>
-                                         {{ subsection.subtitle }}
-                                     </figcaption>
-                             </figure>
-                        </div>
-                       {% endfor %}
+                        {% include media-section.html %}
                        </div>
                   </div>
          </section>
-        {% for subsection in feature.subsections %}
-         <div class="modal fade" id="{{ subsection.handle }}" tabindex="-1" role="dialog" aria-hidden="true">
-         <div class="modal-dialog">
-              <div class="modal-content">
-                   <button type="button" class="close destroy_owl" data-dismiss="modal"><span
-                    aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
-                   <div class="modal-body">
-
-                  <div class="gallery_popup container">
-                        <ul class="gallayoutOption">
-                           <li class="active"><a href="#" class="fa fa-th gridGallery"></a></li>
-                           <li><a href="#" class="fa fa-picture-o sliderGallery"></a></li>
-                        </ul>
-                        <h2>{{ subsection.title }}</h2>
-                        <h6>{{ subsection.subtitle }}</h6>
-                        <div class="galery_widget">
-                             <ul class="gal_list">
-                                {% for subsubsection in subsection.subsubsections  %}
-                                 <li class="trigger_slider">
-                                     <a href="{{ subsubsection.link }}">
-                                        <img src="{{ subsubsection.image }}"
-                                        alt="{{ subsubsection.description }}" />
-                                     </a>
-                                 </li>
-                                 {% endfor %}
-                             </ul>
-                             <ul class="social_share">
-                            <li><a class="btn-share twitter" href="#">Tweet</a><span class="share-count">896</span>
-                            </li>
-                            <li><a class="btn-share facebook" href="#">Like</a><span class="share-count">2k</span>
-                            </li>
-                            <li><a class="btn-share google-plus" href="#">1+</a><span class="share-count">18</span>
-                            </li>
-                             </ul>
-                             <ul class="channels_list row">
-                            <li class="col-xs-12 col-sm-4"> <a href="#"><i
-                                        class="fa fa-circular fa-music"></i>poison itunes</a>
-                            </li>
-                            <li class="col-xs-12 col-sm-4"><a href="#"><i class="fa fa-soundcloud"></i>poison
-                                    soundcloud</a>
-                            </li>
-                            <li class="col-xs-12 col-sm-4"> <a href="#"><i class="fa fa-youtube"></i>poison
-                                    youtube</a></li>
-                             </ul>
-                     </div>
-                 </div>
-            </div>
-        </div>
-    </div>
-         </div>
-        {% endfor %}
+         {% include gallery-modal-fade.html %}
 
         {% when 'promo' %}
          <section id="section_8" class="parallax parallax_three event_promo" data-stellar-background-ratio="0.5">

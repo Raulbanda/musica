@@ -23,6 +23,9 @@ collections:
   posts:
     title: Posts
     output: true
+  gallery:
+    title: Gallery
+    output: false
 
 defaults:
 - scope:
@@ -36,3 +39,8 @@ defaults:
     button:
       title: 
       url: 
+- scope:
+    path: ''
+    type: gallery
+  values:
+    image:
