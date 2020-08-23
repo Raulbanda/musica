@@ -1,4 +1,5 @@
 ---
+date: 2017-06-05 22:47:00 -04:00
 title: new yorklive concert
 subtitle: 145 photos
 handle: gal_pop11

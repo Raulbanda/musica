@@ -200,14 +200,15 @@ layout: default
                                  </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 text-right">
+                              {% assign postsInYear = site.gallery | group_by_exp: 'post', 'post.date | date: "%Y"' %}
                                  <div class="btn-group">
                                       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                                               2014 <span class="fa fa-caret-down"></span>
                                       </button>
                                       <ul class="dropdown-menu" role="menu">
-                                          <li><a href="#">2013</a></li>
-                                          <li><a href="#">2012</a></li>
-                                          <li><a href="#">2011</a></li>
+                                        {% for year in postsInYear %}
+                                          <li><a href="#">{{ year.name }}</a></li>
+                                        {% endfor %}
                                       </ul>
                                  </div>
                             </div>

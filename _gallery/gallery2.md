@@ -1,4 +1,5 @@
 ---
+date: 2014-06-05 22:47:00 -04:00
 title: poison in news
 subtitle: 35 photos
 handle: gal_pop

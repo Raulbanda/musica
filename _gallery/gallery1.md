@@ -1,4 +1,5 @@
 ---
+date: 2013-06-05 22:47:00 -04:00
 title: Behind the scenes
 subtitle: 25 photos
 handle: gal_pop
