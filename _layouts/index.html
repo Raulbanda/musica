@@ -60,109 +60,6 @@ layout: default
                   <a class="closeNewsAjax" href="#section_2"><i class="fa fa-times"></i></a>
                   <div id="newsAjax" class="content_expander"></div>
          </section>
-
-        {% when 'news-letter' %}
-         <section id="section_3" class="newsletter_section">
-                  <div class="container">
-                       <div class="row">
-                            <div class="col-xs-12">
-                                 {% if feature.title %}
-                                    <h3>{{ feature.title | strip_html }}</h3>
-                                 {% endif %}
-                                 <div class="team_prizes">
-                                      <figure class="team_stand animatedParent" data-sequence="400">
-                                          {% for subsection in feature.subsections %}
-                                             <img class="animated {{ subsection.position }}" data-id="{{forloop.index}}" src="{{ subsection.image }}" alt="{{ subsection.description }}" />
-                                          {% endfor %} 
-                                      </figure>
-                                      <div class="newsletter_form">
-                                           <form>
-                                             <input type="text" placeholder="Name" />
-                                             <input type="email" placeholder="Email" />
-                                             <button>Access</button>
-                                             <div class="clearfix"></div>
-                                           </form>
-                                      </div>
-                                 </div>
-                            </div>
-                       </div>
-                  </div>
-         </section>
-
-        {% when 'facebook' %}
-         <section id="section_4" class="parallax parallax_one facebook_promo animatedParent "
-                  data-stellar-background-ratio="0.5">
-                  <div class="parallax_inner ">
-                       <div class="container">
-                            <div class="row">
-                                 <div class="col-xs-12">
-                                     <h1 class="animated fadeInUp">{{ feature.title }}</h1>
-                                     <h3 class="animated fadeInDown">{{ feature.subtitle }} </h3>
-                                     <a href="#" class="btn btn_fb">{{ feature.linkname }}</a>
-                                 </div>
-                            </div>
-                       </div>
-                  </div>
-         </section>
-         
-        {% when 'track-section' %}
-         <section id="section_5" class="track_section">
-                  <div class="container">
-                       <div class="row">
-                            <div class="col-xs-12 col-sm-8">
-                                 <div class="section_head_widget animatedParent ">
-                                       <h2 class="animated fadeInLeft">poison Music</h2>
-                                       <h5 class="animated bounceInRight">All Albums</h5>
-                                 </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 text-right">
-                                 <div class="btn-group">
-                                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                              2014 <span class="fa fa-caret-down"></span>
-                                      </button>
-                                      <ul class="dropdown-menu" role="menu">
-                                          <li><a href="#">2013</a></li>
-                                          <li><a href="#">2012</a></li>
-                                          <li><a href="#">2011</a></li>
-                                      </ul>
-                                 </div>
-                            </div>
-                       </div>
-                       <div class="row tracks_widget">
-                           {% for subsection in feature.subsections %}
-                            <div class="col-sm-4 col-xs-12 animatedParent">
-                                 <div class="track_box animated fadeInUp">
-                                      <figure><img src="{{ subsection.image }}" alt="{{ subsection.description }}" /></figure>
-                                      <div class="track_info_wrapper">
-                                           <div class="track_info">
-                                                <h4>{{ subsection.title }}</h4>
-                                                <h6>{{ subsection.number_songs }}</h6>
-                                           </div>
-                                      </div>
-                                      <div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a>
-                                      </div>
-                                 </div>
-                            </div>
-                           {% endfor %}
-                       </div>
-                  </div>
-                  <div class="clearfix"></div>
-                  <div class="trackLoading"><i class="fa fa-spin fa-refresh"></i></div>
-                  <section id="tracksAjaxWrapper" class="container">
-                           <a class="closeTrackAjax" href="#section_5"><i class="fa fa-times"></i></a>
-                           <div id="tracksAjax" class="content_expander music_widget">
-                           </div>
-                  </section>
-                  <div class="container">
-                       <ul class="channels_list row animatedParent ">
-                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i
-                            class="fa fa-circular fa-music"></i>poison itunes</a></li>
-                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i class="fa fa-soundcloud"></i>poisonsoundcloud</a></li>
-                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
-                       </ul>
-                  </div>
-         </section>
-
         {% when 'testimonial' %}
          <div id="section_6" class="parallax parallax_two testimonial" data-stellar-background-ratio="0.5">
               <div class="parallax_inner">
@@ -188,7 +85,6 @@ layout: default
                 <a href="#" class="btn_itunes"><span class="fa fa-music"></span>poison itunes</a>
             </div>
          </div>
-
         {% when 'media-section' %}
          <section id="section_7" class="media_section">
                   <div class="container">
@@ -200,14 +96,14 @@ layout: default
                                  </div>
                             </div>
                             <div class="col-xs-12 col-sm-4 text-right">
-                              {% assign postsInYear = site.gallery | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+                              {% assign postsInYear = site.gallery | group_by_exp: 'post', 'post.date | date: "%Y"'%}
                                  <div class="btn-group">
                                       <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                                               2014 <span class="fa fa-caret-down"></span>
                                       </button>
                                       <ul class="dropdown-menu" role="menu">
                                         {% for year in postsInYear %}
-                                          <li><a href="#">{{ year.name }}</a></li>
+                                          <li><a href="#{{ year.name }}">{{ year.name}}</a></li>
                                         {% endfor %}
                                       </ul>
                                  </div>
@@ -219,102 +115,6 @@ layout: default
                   </div>
          </section>
          {% include gallery-modal-fade.html %}
-
-        {% when 'promo' %}
-         <section id="section_8" class="parallax parallax_three event_promo" data-stellar-background-ratio="0.5">
-        <div class="parallax_inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 animatedParent ">
-                        <h1 class="animated fadeInDown">performing live!</h1>
-                        <h3 class="animated bounceInRight">stars tour de paris</h3>
-                        <h5 class="animated bounceInUp">november 5th 2013</h5>
-                        <a href="#" class="btn">book tickets now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-         </section>
-
-        {% when 'tours' %}
-         <section id="section_9" class="tours_section">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="section_head_widget">
-                        <h2>{{ feature.title }}</h2>
-                        <h5>{{ feature.subtitle }}</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="tours_widget">
-                <div class="tour_row_header">
-                    <div class="column_one"> {{ feature.date }}</div>
-                    <div class="column_two"> &nbsp;</div>
-                    <div class="column_three"> {{ feature.location }} </div>
-                    <div class="column_four">{{ feature.venue }} </div>
-                    <div class="column_five"> {{ feature.notes }}</div>
-                    <div class="column_six"> {{ feature.tikets }} </div>
-                </div>
-                {% for subsection in feature.subsections %}
-                <div class="tour_row animatedParent  ">
-                    <div class="animated fadeInDownShort">
-                        <div class="column_one">
-                            <span>{{ subsection.date }}</span>
-                        </div>
-                        <div class="column_two"> <img src="{{ subsection.image }}" alt="{{ subsection.description }}" /> </div>
-                        <div class="column_three"> {{ subsection.direction }} </div>
-                        <div class="column_four">{{ subsection.subdirection }}</div>
-                        <div class="column_five"> {{ subsection.vip}} </div>
-                        <div class="column_six"> <a class="btn btn_buy_ticket" href="#">comprar</a> </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-        <!--container-->
-         </section>
-
-         <div id="section_10" class="parallax parallax_four latest_tweets" data-stellar-background-ratio="0.5">
-        <div class="parallax_inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12"> <span class="fa fa-twitter tweet_icon"></span>
-                        <div class="tweet"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-         </div>
-
-        {% when 'team-section' %}
-         <section id="section_11" class="team_section">
-           <div class="container overlayNews">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="section_head_widget">
-                        <h2>{{ feature.title }}</h2>
-                        <h5>{{ feature.subtitle }}</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="team_widget">
-            <div class="container controls_wrapper animatedParent ">
-                <div class="carousel_controls"> <span id="member-prev"
-                        class="fa fa-angle-left animated fadeInLeft"></span>
-                    <span id="member-next" class="fa fa-angle-right animated bounceInRight"></span> </div>
-            </div>
-            <div class="members_carousel animatedParent" data-sequence="400">
-                {% for subsection in feature.subsections %}
-                <figure class="animated fadeInLeft" data-id="{{forloop.index}}"> <img src="{{ subsection.image }}" alt="{{ subsection.description }}" />
-                    <figcaption><a href="#">{{ subsection.name }}</a></figcaption>
-                </figure>
-                {% endfor %}
-            </div>
-        </div>
-         </section>
-
         {% when 'about-section' %}
          <section id="section_12" class="about_section">
         <div class="container">

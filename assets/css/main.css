@@ -30,13 +30,15 @@ Author URI: https://xvelopers.com/
 	19-team Section
 	20-Footer
 ======================*/
+@import url('../fonts/made_canvas_regular_personal_use-webfont.woff2');
+@import url('../fonts/made_canvas_black_personal_use-webfont.woff');
 
 body {
 	font-size: 20px;
 	line-height: 30px;
 	font-weight: 400;
 	color: #6b6a6a;
-	font-family: oswald;
+	font-family: made_canvasblack;
 	text-transform: uppercase;
 	background:#202020;
 	background-size: contain;
@@ -100,7 +102,7 @@ body {
 =============================*/
 
 .sections_wrapper{
-	background: url(../img/BG/bodyBG.jpg) center center #161616;
+	background: url(../img/BG/negro.jpg) center center #161616;
 }
 .boxed_in{
 	max-width:1200px;
@@ -674,11 +676,11 @@ a.playlist_expander{
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
-.parallax_one { background-image: url(../img/BG/parallax1.jpg);}
-.parallax_two { background-image: url(../img/BG/parallax2.jpg);}
+.parallax_one { background-image: url(../img/BG/paralax12.jpg);}
+.parallax_two { background-image: url(../img/BG/paralaz12.jpg);}
 .parallax_three { background-image: url(../img/BG/parallax3.jpg);}
 .parallax_four { background-image: url(../img/BG/parallax4.jpg);}
-.parallax_five { background-image: url(../img/BG/parallax5.jpg);}
+.parallax_five { background-image: url(../img/BG/footer.jpg);}
 
 /*==========================
 7-Channels

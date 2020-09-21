@@ -1,12 +1,13 @@
-{% for subsection  in site.gallery %}
+{% assign postsInYear = site.gallery %}
+{% for year in postsInYear %}
  <div class="col-xs-12 col-sm-4 col-md-3 animatedParent">
     <figure class="animated fadeInUp">
-            <a href="#" data-toggle="modal" data-target="#{{ subsection.handle }}">
-                <img src="{{ subsection.image }}" alt="{{ subsection.description }}" />
+            <a href="#{{ year.date | date: "%Y"}}" data-toggle="modal" data-target="#{{ year.handle }}">
+                <img src="{{ year.image }}" alt="{{ year.description }}" />
             </a>
             <figcaption>
-                <h6>{{ subsection.title }}</h6>
-                    {{ subsection.subtitle }}
+                <h6>{{ year.title }}</h6>
+                    {{ year.subtitle }}
             </figcaption>
     </figure>
 </div>

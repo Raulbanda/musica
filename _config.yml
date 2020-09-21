@@ -26,7 +26,6 @@ collections:
   gallery:
     title: Gallery
     output: false
-
 defaults:
 - scope:
     path: ''

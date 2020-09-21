@@ -1,5 +1,6 @@
-{% for subsection  in site.gallery %}
-<div class="modal fade" id="{{ subsection.handle }}" tabindex="-1" role="dialog" aria-hidden="true">
+{% assign postsInYear = site.gallery %}
+{% for year in postsInYear %}
+<div class="modal fade" id="{{ year.handle }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
               <div class="modal-content">
                    <button type="button" class="close destroy_owl" data-dismiss="modal"><span
@@ -10,15 +11,15 @@
                            <li class="active"><a href="#" class="fa fa-th gridGallery"></a></li>
                            <li><a href="#" class="fa fa-picture-o sliderGallery"></a></li>
                         </ul>
-                        <h2>{{ subsection.title }}</h2>
-                        <h6>{{ subsection.subtitle }}</h6>
+                        <h2>{{ year.title }}</h2>
+                        <h6>{{ year.subtitle }}</h6>
                         <div class="galery_widget">
                              <ul class="gal_list">
-                                {% for subsubsection in subsection.subsections  %}
+                                {% for subyear in year.subsections  %}
                                  <li class="trigger_slider">
-                                     <a href="{{ subsubsection.link }}">
-                                        <img src="{{ subsubsection.image }}"
-                                        alt="{{ subsubsection.description }}" />
+                                     <a href="{{ subyear.link }}">
+                                        <img src="{{ subyear.image }}"
+                                        alt="{{ subyear.description }}" />
                                      </a>
                                  </li>
                                  {% endfor %}

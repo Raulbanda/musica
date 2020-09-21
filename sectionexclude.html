@@ -1,0 +1,222 @@
+<!--track section yml y md handle y dom section5--->
+---
+- title: poison Music
+  subtitle: All Albums
+  handle: track-section
+  subsections:
+  - image: "assets/img/news/n1.jpg"
+    description: News cochabamba
+    title: Loremipsum1 Per hour
+    number_songs: 13 tracks
+    link: albums.html
+   
+  - image: "assets/img/news/n2.jpg"
+    description: News cochabamba
+    title: Loremipsum2 Per hour
+    number_songs: 14 tracks
+    link: albums.html
+
+  - image: "assets/img/news/n3.jpg"
+    description: News cochabamba
+    title: Loremipsum3 Per hour
+    number_songs: 14 tracks
+    link: albums.html
+
+  - image: "assets/img/news/n4.jpg"
+    description: News cochabamba
+    title: Loremipsum4 Per hour
+    number_songs: 15 tracks
+    link: albums.html
+
+  - image: "assets/img/news/n5.jpg"
+    description: News cochabamba
+    title: Loremipsum4 Per hour
+    number_songs: 16 tracks
+    link: albums.html
+
+  - image: "assets/img/news/n6.jpg"
+    description: News cochabamba
+    title: Loremipsum5 Per hour
+    number_songs: 17 tracks
+    link: albums.html
+
+---
+{% when 'track-section' %}
+         <section id="section_5" class="track_section">
+                  <div class="container">
+                       <div class="row">
+                            <div class="col-xs-12 col-sm-8">
+                                 <div class="section_head_widget animatedParent ">
+                                       <h2 class="animated fadeInLeft">poison Music</h2>
+                                       <h5 class="animated bounceInRight">All Albums</h5>
+                                 </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4 text-right">
+                                 <div class="btn-group">
+                                      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                              2014 <span class="fa fa-caret-down"></span>
+                                      </button>
+                                      <ul class="dropdown-menu" role="menu">
+                                          <li><a href="#">2013</a></li>
+                                          <li><a href="#">2012</a></li>
+                                          <li><a href="#">2011</a></li>
+                                      </ul>
+                                 </div>
+                            </div>
+                       </div>
+                       <div class="row tracks_widget">
+                           {% for subsection in feature.subsections %}
+                            <div class="col-sm-4 col-xs-12 animatedParent">
+                                 <div class="track_box animated fadeInUp">
+                                      <figure><img src="{{ subsection.image }}" alt="{{ subsection.description }}" /></figure>
+                                      <div class="track_info_wrapper">
+                                           <div class="track_info">
+                                                <h4>{{ subsection.title }}</h4>
+                                                <h6>{{ subsection.number_songs }}</h6>
+                                           </div>
+                                      </div>
+                                      <div class="hover"> <a class="triggerTrack" href="albums.html" data-number="1"> Read Full Article </a>
+                                      </div>
+                                 </div>
+                            </div>
+                           {% endfor %}
+                       </div>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="trackLoading"><i class="fa fa-spin fa-refresh"></i></div>
+                  <section id="tracksAjaxWrapper" class="container">
+                           <a class="closeTrackAjax" href="#section_5"><i class="fa fa-times"></i></a>
+                           <div id="tracksAjax" class="content_expander music_widget">
+                           </div>
+                  </section>
+                  <div class="container">
+                       <ul class="channels_list row animatedParent ">
+                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i
+                            class="fa fa-circular fa-music"></i>poison itunes</a></li>
+                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i class="fa fa-soundcloud"></i>poisonsoundcloud</a></li>
+                           <li class="col-xs-12 col-sm-4 animated fadeInLeft"><a href="#"><i class="fa fa-youtube"></i>poison youtube</a></li>
+                       </ul>
+                  </div>
+         </section>
+<!--section 9 tours exclude md, yml and the dom-->
+---
+- title: poison tours
+  subtitle: all tours this year
+  date: november 5th 2013
+  handle: tours
+  date: fecha 
+  location: Location
+  venue:  Venue
+  notes: Notes
+  tickets: Tickets
+  subsections:
+  - date: 10/10/14
+    image: assets/img/media/media_07.jpg
+    description: 
+    direction: Lorem Center
+    subdirection: Fairfax, VA US
+    vip: vIP Offers Sold Out
+
+  - date: 10/11/14
+    image: assets/img/media/media_01.jpg
+    description: 
+    direction: Lorem Events Center1
+    subdirection: Pittsburgh, PA US 
+    vip: with Emblem3 t
+
+  - date: 15/11/14
+    image: assets/img/media/media_05.jpg
+    description: 
+    direction: TD Lorem2 
+    subdirection: Boston, MA US
+    vip:  with Emblem3 
+
+  - date: 25/11/14
+    image: assets/img/media/media_08.jpg
+    description: 
+    direction: Wells Fargo Center3
+    subdirection: Philadelphia, PA US
+    vip:  with Emblem3 
+
+
+  - date: 30/11/14
+    image: assets/img/media/media_08.jpg
+    description: 
+    direction: Lorem Center4
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3 
+
+  - date: 31/11/14
+    image: assets/img/media/media_07.jpg
+    description: 
+    direction: Lorem Center5
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3
+    
+  - date: 1/12/14
+    image: assets/img/media/media_06.jpg
+    description: 
+    direction: Lorem Center6
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3 
+
+  - date: 8/12/20
+    image: assets/img/media/media_02.jpg
+    description: 
+    direction: Lorem Center7
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3
+
+  - date: 8/12/20
+    image: assets/img/media/media_04.jpg
+    description: 
+    direction: Lorem Center8
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3
+
+  - date: 8/12/20
+    image: assets/img/media/media_05.jpg
+    description: 
+    direction: Lorem Center9
+    subdirection: Fairfax, VA US
+    vip:  with Emblem3
+
+---
+{% when 'tours' %}
+         <section id="section_9" class="tours_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section_head_widget">
+                        <h2>{{ feature.title }}</h2>
+                        <h5>{{ feature.subtitle }}</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="tours_widget">
+                <div class="tour_row_header">
+                    <div class="column_one"> {{ feature.date }}</div>
+                    <div class="column_two"> &nbsp;</div>
+                    <div class="column_three"> {{ feature.location }} </div>
+                    <div class="column_four">{{ feature.venue }} </div>
+                    <div class="column_five"> {{ feature.notes }}</div>
+                    <div class="column_six"> {{ feature.tikets }} </div>
+                </div>
+                {% for subsection in feature.subsections %}
+                <div class="tour_row animatedParent  ">
+                    <div class="animated fadeInDownShort">
+                        <div class="column_one">
+                            <span>{{ subsection.date }}</span>
+                        </div>
+                        <div class="column_two"> <img src="{{ subsection.image }}" alt="{{ subsection.description }}" /> </div>
+                        <div class="column_three"> {{ subsection.direction }} </div>
+                        <div class="column_four">{{ subsection.subdirection }}</div>
+                        <div class="column_five"> {{ subsection.vip}} </div>
+                        <div class="column_six"> <a class="btn btn_buy_ticket" href="#">comprar</a> </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <!--container-->
+         </section>

@@ -15,6 +15,12 @@ layout: default
                           <span>Sep 20, 2013</span>
                         </li>
                       </ul>
+                      <ul>
+                      
+                        {% for category in site.data.lista.categorias %}
+                          <li> {{ category }}</li>
+                      {% endfor %}
+                      </ul>
                     </div>
                     <ul class="images_grid">
                       <li> <img src="assets/img/popup/grid_01.jpg" alt="demo-image"/> </li>
