@@ -1,6 +1,6 @@
 locale: 
-title: "Mi sitio musical "
-description: "Musica"
+title: "Musica "
+description: Covers musicales, solos, acusticos y canto, con pasion si mucha pasion
 baseurl: '/musica'
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
@@ -9,7 +9,7 @@ read_time: # reading time estimates, e.g. true
 words_per_minute: # 200 
 
 # Nombre del sitio web musical######
-title: MonMusic
+title: Musica con pasion
 Description:
 logo: assets/img/basic/logo2.png
 ##### site music controls settings ######
