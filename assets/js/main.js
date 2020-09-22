@@ -84,7 +84,7 @@ jQuery(function($){
 		var BV = new $.BigVideo({useFlashForFirefox:false});
    		BV.init();
 		BV.getPlayer().poster('assets/video/video-poster.jpg');
-		BV.show('assets/video/demo.mp4',{doLoop:true});
+		BV.show('http://vjs.zencdn.net/v/oceans.mp4',{doLoop:true});
 		
 		$('.video-load').show();
 		BV.getPlayer().on('seeking',function(){

@@ -11,7 +11,7 @@ words_per_minute: # 200
 # Nombre del sitio web musical######
 title: Musica con pasion
 Description:
-logo: assets/img/basic/logo2.png
+logo: assets/img/basic/logo3.png
 ##### site music controls settings ######
 number: '#'
 track_name: titulo Musica

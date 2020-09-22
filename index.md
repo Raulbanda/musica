@@ -1,7 +1,7 @@
 ---
 layout: index
-title: MonMusic1
-logo: assets/img/basic/logo2.png
+title: Monduela
+logo: assets/img/basic/logo3.png
 description: Musica para la vida
 features:
 - title: Noticias
